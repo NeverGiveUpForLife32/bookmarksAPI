@@ -1,0 +1,25 @@
+:root{
+    --offwhite: whitesmoke;
+    --text-light: #968c84;
+    --text-dark: #615954;
+    --text-black: #161616;
+}
+
+body {
+    margin: 0;
+    padding: 1vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--offwhite);
+    color: var(--text-black);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

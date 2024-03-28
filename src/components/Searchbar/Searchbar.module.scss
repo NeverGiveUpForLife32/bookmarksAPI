@@ -1,0 +1,38 @@
+.tag__btn {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    background-color: blue;
+    cursor: pointer;
+    width: 20px;
+    padding: 5px;
+    margin: .1vmin;
+}
+
+.tag__bn:hover {
+    color: blue;
+    background-color: var(--offwhite);
+}
+
+
+.search__bar {
+    display: flex;
+    background-color: var(--text-light);
+    border-radius: 5px;
+    border: solid .25rem var(--text-dark);
+    cursor: grab;
+}
+
+.tag__buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+    padding: 5px;
+    margin: 1vmin;
+}
+
+#tag-buttons .tag__btn {
+    background-color: yellow;
+    color: yellow;
+}

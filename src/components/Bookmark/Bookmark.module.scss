@@ -1,0 +1,56 @@
+button {
+    background-color: var(--text-dark);
+    color: var(--text-light);
+    border-radius: .5vmin;
+    margin: 1vmin;
+    font-size: 2vmin;
+    height: 3vmin;
+}
+
+a, a:visited, a:link {
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--text-black);
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+    background-color: white;
+    border: 1px solid var(--text-dark);
+    box-shadow: 4px 8px 16px var(--text-dark);
+    display: flex;
+    font-size: 1.5vmin;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5vmin;
+}
+
+
+
+.bookmark {
+    border: solid 5px black;
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    .button {
+        background-color: rgba(26, 204, 44, 0.8);
+        text-transform: uppercase;
+        cursor: pointer;
+        color: ghostwhite;
+        padding: 0.25rem 1rem;
+        font-size: 1rem;
+        font-weight: 700;
+        display: inline-block;
+        margin: 1rem;
+        margin-left: 1rem;
+        border: 2px solid black;
+        box-shadow: 0 2px 5px rgba(23, 5, 58, 0.5);
+    }
+    .link {
+        color: black;
+        padding: 1rem;
+    }
+
+}
